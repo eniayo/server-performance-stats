@@ -19,5 +19,5 @@ This project is a Bash script (`server-stats.sh`) designed to analyze server per
 ## How to Run the Script:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/server-performance-stats.git
+   git clone https://github.com/your-username/server-performance-stats
    cd server-performance-stats
