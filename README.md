@@ -20,4 +20,5 @@ This project is a Bash script (`server-stats.sh`) designed to analyze server per
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/server-performance-stats
+   https://roadmap.sh/projects/server-stats
    cd server-performance-stats
