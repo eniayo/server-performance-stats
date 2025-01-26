@@ -22,3 +22,4 @@ This project is a Bash script (`server-stats.sh`) designed to analyze server per
    git clone https://github.com/your-username/server-performance-stats
    https://roadmap.sh/projects/server-stats
    cd server-performance-stats
+![Screenshot 2025-01-26 at 22 19 28](https://github.com/user-attachments/assets/48943ce4-98df-45c4-8d66-ea09f526709c)
