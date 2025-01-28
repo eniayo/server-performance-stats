@@ -1,22 +1,53 @@
 # Server Performance Stats
 
-This project is a Bash script (`server-stats.sh`) designed to analyze server performance statistics. It can be used on macOS or Linux servers to gather key metrics such as:
+This project provides a Bash script (`server-stats.sh`) to analyze and display key server performance statistics. It works on both **macOS** and **Linux** servers and provides vital information about the server's current state.
 
-- Total CPU usage
-- Total memory usage (free vs. used, including percentage)
-- Total disk usage (free vs. used, including percentage)
-- Top 5 processes by CPU usage
-- Top 5 processes by memory usage
+## Key Features
 
-## Stretch Features:
-- OS version
-- Uptime
-- Logged-in users
-- Load average
+The script gathers the following performance metrics:
 
-## How to Run the Script:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/server-performance-stats.git
-   cd server-performance-stats
+### **1. Total CPU Usage**
+- Displays the total CPU usage percentage.
+
+### **2. Total Memory Usage**
+- Shows the total memory usage, both **free** and **used**, along with the percentage used.
+
+### **3. Total Disk Usage**
+- Displays disk usage statistics including **free** and **used** space, and their corresponding percentage.
+
+### **4. Top 5 Processes by CPU Usage**
+- Lists the top 5 processes consuming the most CPU resources.
+
+### **5. Top 5 Processes by Memory Usage**
+- Lists the top 5 processes consuming the most memory.
+
+## Stretch Features
+
+The script can also gather additional system information:
+
+### **1. OS Version**
+- Displays the operating system version (macOS or Linux).
+
+### **2. Uptime**
+- Shows the server’s uptime.
+
+### **3. Logged-In Users**
+- Displays a list of users currently logged into the server.
+
+### **4. Load Average**
+- Displays the server's load average over 1, 5, and 15 minutes.
+
+## How to Run the Script
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/server-performance-stats.git
+cd server-performance-stats
+Step 2: Make the Script Executable
+
+chmod +x server-stats.sh
+Step 3: Run the Script
+
+./server-stats.sh
 
